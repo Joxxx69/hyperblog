@@ -8,6 +8,7 @@
 1. ```git log``` muestra el historial de commits de un repositorio.
 1. ```git show```  se utiliza en Git para mostrar información detallada sobre un commit específico. Se puede utilizar este comando para ver los cambios introducidos en un commit.
 8. ```git diff``` muestra las diferencias entre dos estados. 
+9. ```git log --stat``` muestra los cambios especificos en los archivos apartir del commit
 
 ---
 ### Staging repositorio
