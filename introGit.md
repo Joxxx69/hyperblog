@@ -28,6 +28,9 @@
 > - ```git reset <commitHash> --soft```: vuelve al estado anterior, pero lo que se tiene en staging se mantiene.
 >
 > Tener cuidado con el hard.
+
+> ```git checkout```
+
 ---
 ## Branch
 
