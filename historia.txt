@@ -3,3 +3,5 @@ Este es el inicio del aprendizaje de git
 Aprendiendo los comandos basicos de git
 
 los comandos de git son faciles 
+
+Hoy hablaremos de mi vida
