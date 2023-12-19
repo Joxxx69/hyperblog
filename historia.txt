@@ -4,4 +4,4 @@ Aprendiendo los comandos basicos de git
 
 los comandos de git son faciles 
 
-Hoy hablaremos de mi vida
+Hoy hablaremos de mi vida y mis estudios
