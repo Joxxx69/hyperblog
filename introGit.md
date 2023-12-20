@@ -65,7 +65,7 @@ Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 
 ## Cifrado Asimetrico
 
-## Llaves publicas y Llaves privadas
+### Llaves publicas y Llaves privadas
 
 * Mediante un algoritmo se crean dos llaves, una privada y una publica. Estas llaves estan relacionadas matematicamente.
 
@@ -73,3 +73,36 @@ Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 
 ![Alt text](imgs/image-1.png)
 
+### SSH security shell 
+
+> Para crear la llave privada y publica debemos estar en le directorio raiz.
+>
+> - ```ssh-keygen -l rsa -b 4096 -C "email"``` para generar las llaves
+>> - ```-l``` para asignar el tipo de algoritmo
+>> - ```-b``` para asignar la  complejidad
+>> - ```-C``` para vincular la llave publica al correo electronico
+>
+> ```passphrase``` es una contraseña adicional para la llave publica y privada
+
+![Alt text](imgs/imagessh.png)
+
+
+
+#### configuracion en mac
+
+
+Creacion de las llaves 
+![Alt text](image-3.png)
+
+
+Pasos para agregar la llave privada al entorno en mac
+>
+> - Revisar que el servidor de llaves SSH este activo, para que verifique que las llaves estan corriendo y que las conecte cuando nos conectemos a un servidor remoto(en este caso gitHub)
+> ![Alt text](image-1.png)
+>
+> - Creacion o configuracion del archivo config en .ssh
+> ![Alt text](image-4.png)
+> ![Alt text](image.png)
+>
+> - Agregar la llave al sistema
+> ![Alt text](image-2.png)
