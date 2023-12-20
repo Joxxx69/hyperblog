@@ -92,17 +92,16 @@ Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 
 
 Creacion de las llaves 
-![Alt text](image-3.png)
-
+![Alt text](imgs/image-ssh-3.png)
 
 Pasos para agregar la llave privada al entorno en mac
 >
 > - Revisar que el servidor de llaves SSH este activo, para que verifique que las llaves estan corriendo y que las conecte cuando nos conectemos a un servidor remoto(en este caso gitHub)
-> ![Alt text](image-1.png)
+>![Alt text](imgs/image-ssh-1.png)
 >
 > - Creacion o configuracion del archivo config en .ssh
-> ![Alt text](image-4.png)
-> ![Alt text](image.png)
+> ![Alt text](imgs/image-ssh-4.png)
+> ![Alt text](imgs/image-ssh-5.png)
 >
 > - Agregar la llave al sistema
-> ![Alt text](image-2.png)
+> ![Alt text](imgs/image-ssh-2.png)
