@@ -59,5 +59,3 @@ Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 * ```git fetch``` recupera cambios desde un repositorio remoto, pero no fusiona automáticamente esos cambios en tu rama actual.
 * ```git merge``` este comando incorpora los los cambios en la rama actual.
 * ```git pull``` recupera los cambios desde un repositorio remoto y fusionar automáticamente esos cambios en la rama local actual. Es una convinacion de git fetch y git merge.
-
-
