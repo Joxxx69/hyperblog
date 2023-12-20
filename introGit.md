@@ -44,7 +44,7 @@
 * Se puede crear ramas para **experimentos/development**.
 * ```hotfix``` es una rama especial cuando se tiene un bug en la rama actual/principal, aqui se realiza los cambios y luego se fuciona con la rama actual, realizando un ```merge```.
 * ```merge``` cuando se fucionan dos ramas. 
-![Alt text](image.png)
+![Alt text](imgs/image.png)
 
 Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 > **Nota:** cuando existe un error de detach HEAD, significa que estamos viendo un commit viejo, la forma de solucionar es aplicar ```git checkout main``` para regresar a la cabecera.
@@ -59,3 +59,17 @@ Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
 * ```git fetch``` recupera cambios desde un repositorio remoto, pero no fusiona automáticamente esos cambios en tu rama actual.
 * ```git merge``` este comando incorpora los los cambios en la rama actual.
 * ```git pull``` recupera los cambios desde un repositorio remoto y fusionar automáticamente esos cambios en la rama local actual. Es una convinacion de git fetch y git merge.
+
+---
+
+
+## Cifrado Asimetrico
+
+## Llaves publicas y Llaves privadas
+
+* Mediante un algoritmo se crean dos llaves, una privada y una publica. Estas llaves estan relacionadas matematicamente.
+
+* Se cifra con la llave publica y se descifra con la llave privada.
+
+![Alt text](imgs/image-1.png)
+
