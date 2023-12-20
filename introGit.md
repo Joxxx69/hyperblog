@@ -105,3 +105,8 @@ Pasos para agregar la llave privada al entorno en mac
 >
 > - Agregar la llave al sistema
 > ![Alt text](imgs/image-ssh-2.png)
+
+
+### GitHub - creacion de SSH Key
+
+![Alt text](imgs/image-git.png)
