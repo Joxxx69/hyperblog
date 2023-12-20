@@ -30,6 +30,10 @@
 > Tener cuidado con el hard.
 
 > ```git checkout``` --> no me quedo tan claro
+> - ```git checkout ramaPrincipal``` permite regresar a la rama principal o a la cabecera (al commit mas reciente)
+> - ```git checkout commitHash ``` permite regresar a una version anterior. 
+> 
+> Tener cuidado
 
 ---
 ## Branch
@@ -40,6 +44,10 @@
 * ```hotfix``` es una rama especial cuando se tiene un bug en la rama actual/principal, aqui se realiza los cambios y luego se fuciona con la rama actual, realizando un ```merge```.
 * ```merge``` cuando se fucionan dos ramas. 
 ![Alt text](image.png)
+
+Main es la rama principal y el commit mas reciente es la cabecera (HEAD).
+> **Nota:** cuando existe un error de detach HEAD, significa que estamos viendo un commit viejo, la forma de solucionar es aplicar ```git checkout main``` para regresar a la cabecera.
+
 
 ---
 
